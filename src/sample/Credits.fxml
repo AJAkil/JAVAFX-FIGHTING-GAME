@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1280.0" style="-fx-background-color: #EBF5FB;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1280.0">
+         <image>
+            <Image url="@../Th135_Palace_of_the_Earth_Spirits.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="1169.0" layoutY="602.0" mnemonicParsing="false" onAction="#GoBack" style="-fx-background-color: #2E86C1;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="528.0" layoutY="69.0" prefHeight="173.0" prefWidth="334.0" text="Created By" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="46.0" />
+         </font>
+      </Label>
+      <Label layoutX="541.0" layoutY="186.0" prefHeight="112.0" prefWidth="210.0" text="Ajwad Akil" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="516.0" layoutY="242.0" prefHeight="112.0" prefWidth="261.0" text="Fahim Morshed" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="492.0" layoutY="305.0" prefHeight="132.0" prefWidth="327.0" text="Department of CSE" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="590.0" layoutY="350.0" prefHeight="132.0" prefWidth="272.0" text="BUET" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="37.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
